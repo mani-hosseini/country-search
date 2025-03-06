@@ -2,7 +2,7 @@ import {Link} from "react-router-dom";
 
 function About() {
     return (
-        <section className={'w-[80%] flex items-center justify-center m-auto'}>
+        <section className={'w-[80%] mt-14 flex items-center justify-center m-auto'}>
             <div className={'container mx-auto px-4 max-w-4xl'}>
                 <h1 className={'text-4xl font-extrabold text-gray-900 mb-6 text-center'}>About This Website</h1>
                 <p className={'text-xl text-gray-700 leading-relaxed mb-4'}>This website uses the <span

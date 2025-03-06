@@ -2,7 +2,7 @@ import {Link} from "react-router-dom";
 
 function Home() {
     return (
-        <section className={'w-[80%] m-auto'}>
+        <section className={'w-[80%] m-auto mt-14'}>
             <div className={'w-1/2  space-y-5'}>
                 <h1 className={'text-4xl  tracking-tight text-gray-900 sm:text-5xl'}>Explore Countries with<span
                     className={'text-[#2563EB]'}>Real-Time Data</span></h1>
