@@ -2,7 +2,7 @@ import {Link} from "react-router-dom";
 
 function Home() {
     return (
-        <section className={'w-[80%] m-auto mt-14'}>
+        <section className={'w-[80%] m-auto mt-14 flex  items-center gap-x-7'}>
             <div className={'w-1/2  space-y-5'}>
                 <h1 className={'text-4xl  tracking-tight text-gray-900 sm:text-5xl'}>Explore Countries with<span
                     className={'text-[#2563EB]'}>Real-Time Data</span></h1>
@@ -12,7 +12,9 @@ function Home() {
                     <Link className={'flex items-center px-6 py-3 text-gray-500 bg-gray-100 rounded-md hover:bg-gray-200 hover:text-gray-600'} to="/about">Learn More</Link>
                 </div>
             </div>
-
+            <div className={'w-1/2'}>
+                <img className={'overflow-hidden rounded-md shadow-xl'} src="../../src/assets/screen-0.webp" alt="" />
+            </div>
         </section>
     )
 }

@@ -3,6 +3,7 @@ import About from './pages/About';
 import Home from './pages/Home';
 import Nav from "./pages/nav.jsx";
 import Countries from "./pages/countries.jsx";
+import Details from "./pages/country-ditails.jsx";
 
 function App() {
     return (
@@ -12,6 +13,8 @@ function App() {
                 <Route path="/" element={<Home/>}/>
                 <Route path="/about" element={<About/>}/>
                 <Route path="/countries" element={<Countries/>}/>
+                <Route path="/country/:id" element={<Details/>}/>
+
             </Routes>
         </Router>
     );
